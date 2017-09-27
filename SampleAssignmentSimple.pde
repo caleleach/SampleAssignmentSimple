@@ -11,6 +11,12 @@ void setup() {
 void draw() {
   background(255);
   drawOutlineOfLights();
+  displayRedLight();
+}
+
+void displayRedLight() {
+  fill(random(255),random(255),random(255));
+  ellipse(width/2, height/2 - 65, 50, 50); //top
 }
 
 void drawOutlineOfLights() {
