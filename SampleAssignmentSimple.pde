@@ -2,6 +2,8 @@
 // changing according to time. You may want to investigate the millis()
 // function at processing.org/reference.
 
+//I forgot to save it.
+
 void setup() {
   size(600, 600);
 }
